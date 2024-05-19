@@ -1,0 +1,61 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1000;
+  }
+  
+  .nav-item {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .nav-item:hover {
+    color: #ffcc00; /* Change color on hover */
+  }
+  
+  .navbar.scrolled {
+    background-color: #cdcccc; /* Change background color when scrolled */
+  }
+.container {
+    text-align: center;
+    margin-top: 50px;
+    color: #ffffff;
+}
+
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: aquamarine;
+}
+body{
+  background-color: #222;
+}
